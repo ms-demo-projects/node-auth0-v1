@@ -14,8 +14,8 @@ For that, the following should have been already created for you; if not, just c
 
 ````bash
 # .env file
-AUTH0_CLIENT_SECRET=<myCoolSecret>
-AUTH0_CLIENT_ID=<myCoolClientId>
+AUTH0_CLIENT_SECRET=`<client_secret>`
+AUTH0_CLIENT_ID=`<client_id>`
 ````
 
 Once you've set those 2 enviroment variables, just run `npm start` and try calling [http://localhost:3001/ping](http://localhost:3001/ping)
